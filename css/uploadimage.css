@@ -1,0 +1,31 @@
+ 
+.form-container{
+	text-align:center;
+	margin:5% auto 2%;
+}
+.form-group p{display: inline-block;}
+form input{margin-bottom: 2%;}
+ 
+.file{
+	height: 30px;
+	margin-bottom: 0;
+}
+.clearfix{
+	clear: both;
+}
+.uploaded-images{
+	padding: 2% 10%;
+    text-align: center;
+    width: 70%;
+}
+.uploaded-images #error_div{
+	color: #ff0000;
+}
+.uploaded-images #success_div img{
+	margin: .1%;
+}
+#loader{
+	font-size: 1.2em;
+	color: #ff0000;
+	
+}

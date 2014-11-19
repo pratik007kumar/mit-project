@@ -1,0 +1,302 @@
+                                
+
+.backdiv{width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		background: #fff;
+		z-index: -1;}
+.backl{width:50%; float:left; background: #1C262F; min-height:100vh;}
+.backR{width:50%; float:left;background: #E8E9EB; min-height:100vh;}
+.main-body-div{position: absolute; z-index: 0; min-height: 100vh; top: 0px; width:100%;}
+﻿.div-prf-body {
+    width: 975px;
+    height: auto;
+    margin: 0 auto;
+    background: #E8E9EB;
+    float: left;
+}
+
+.div-align {
+    padding: 0px 0px 0px 0px;
+}
+
+.div-profile {
+    width: 100%;
+    height: 238px;
+    border: solid 0px;
+    margin-left: 0px;
+    background: #fff;
+}
+
+.div-prfname {
+    width: 100%;
+    height: 36px;
+    padding: 5px 0px 0px 0px;
+    background-color: #FFFFFF;
+    margin-left: 0px;
+    border-bottom: 4px solid #B7BBBE;
+}
+
+.div-name {
+    float: left;
+    width: 30%;
+    font-family: Calibri;
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.div-name-center {
+    float: left;
+    width: 30%;
+    font-family: Calibri;
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.div-name-right {
+    float: right;
+    width: 18%;
+    font-family: Calibri;
+    font-size: 16px;
+    margin-right: 6px;
+    text-align: center;
+}
+
+.div-prf-name {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.div-profile-body {
+    width: 100%;
+     background:url("../images/profile-side.jpg") 120px 0px  repeat-y;
+     height:auto;
+     float:left;
+     background-color: #E8E9EB;
+}
+
+.div-profile-body-left {
+    float: left;
+    width: 25%;
+    min-height: 100vh;
+   
+    padding: 15px 0px;
+}
+
+.div-profile-body-right {
+    float: left;
+    width: 75%;
+    height: auto;
+    padding: 5px 0px 0px 8px;
+    display: block !important;
+background:#E8E9EB;
+    margin-top: -1px;
+    min-height:100vh;
+
+}
+
+.div-profile-body {
+    list-style: none;
+    color: #434D56;
+    line-height: 28px;
+    font-family: Calibri;
+    font-weight: normal;
+}
+
+.div-profile-body-left ul {
+    list-style: none;
+    color: #1D262D;
+    line-height: 28px;
+    font-family: Century Gothic;
+    font-weight: normal;
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+.div-profile-body-left ul li a {
+    color: #1D262D;
+    text-decoration: none;
+}
+
+.clr {
+    color: #FFA200;
+}
+
+.prf-follow {
+    border: solid 1px #B0B0B0;
+    width: 70%;
+    float: left;
+    background-color: #E8E9EB;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+
+}
+.prf-follow:hover,.prf-follow:active{ text-decoration: none;}
+.prf-follow-edit {
+    width: 20%;
+    float: right;
+}
+
+.tgl {
+    font-family: Calibri;
+    color: #00809D;
+}
+
+.prg {
+    color: #000;
+}
+
+.pnl {
+    width: 605px;
+    display: block;
+}
+
+.div-box {
+    padding: 1px;
+    border-right: none;
+    float: left;
+    width: 35px;
+    margin:0px 0px 0px  5px;
+}
+
+.comment-frm {
+    width: 310px;
+    float: left;
+    /*margin-left: -3px;*/
+}
+
+.comment-frm input {
+    border-radius: none !important;
+}
+
+.div-box img {
+    border-radius: 2px !important;
+    width: 34px !important;
+}
+
+.panel1 {
+    display: none;
+    float:right;
+    width:98%;
+}
+
+.div-pic {
+    float: left;
+    width: 40px;
+    padding: 6px;
+}
+
+.div-pic img {
+    border-radius: 4px;
+}
+
+.box {
+    width: 100%;
+}
+
+.div-pic-nm {
+    float: left;
+    width: 200px;
+    color: #00809D;
+    font-weight: bold;
+    padding: 5px 0px 0px 10px;
+    height: auto;
+    min-height: 100%;
+    font-size: 13px;
+   line-height:  15px;
+}
+
+.profile-nm {
+    padding: 8px 0px 0px 10px;
+    float: left;
+    width: 200px;
+    color: #000000;
+    height: auto;
+    min-height: 100%;
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+
+.desg {
+    color: #9E9E9E;
+    font-size: 11px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.div-pic-content {
+    float: left;
+    width: 371px;
+    height: auto;
+    min-height: 60px;
+    padding: 6px;
+    color: #333333;
+    font-size: 12px;
+    text-align: justify;
+    border-left: solid 1px #A8A8A8;
+    line-height: 16px;
+    word-break: break-all;
+}
+
+.div-pic-content .username {
+    color: #00809D;
+    font-weight: bold;
+    padding: 5px 0px 0px 10px;
+}
+
+.div-pic-content img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.pnl-comment {
+    float: left;
+    padding: 0px;
+    width: 100%;
+}
+
+.div-like {
+    float: left;
+    width: 350px;
+    height: auto;
+    border-right: #A8A8A8;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: -3px;
+    word-break: break-all;
+}
+
+#td_content {
+    width: 97%;
+}
+
+.nm {
+    color: #767779;
+}
+
+.profile-image {
+    width: 147px;
+    height: 140px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 3px 3px 0px 3px;
+    margin: 100px 0px 0px 15px;
+    float: left;
+}
+
+.profile-image img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.basic-info li{ width: 50% !important;   float: left;}
+.basic-info li span{}
+
+.profileactive{ background: #ccc; width: 210px;}
+
+                            
